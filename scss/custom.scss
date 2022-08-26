@@ -12,15 +12,6 @@ $white: hsl(0, 0%, 100%);
 
 $monserrat : 'Montserrat', sans-serif;
 $fraunces :'Fraunces', serif;
-.c-darkcyan{
-    color: $dark-cyan;
-}
-.c-dark-blue{
-    color: $very-dark-blue;
-}
-.c-grayish-blue{
-    color :$dark-grayish-blue;
-}
 .monserrat{
     font-family: $monserrat;
 }
@@ -32,6 +23,7 @@ body{
     font-size: 14px;
     font-family: $monserrat;
 }
+
 .bg-cyan{
     background-color: $dark-cyan;
 }
@@ -40,6 +32,15 @@ body{
 }
 .bg-white{
     background-color: $white;
+}
+.c-darkcyan{
+    color: $dark-cyan;
+}
+.c-dark-blue{
+    color: $very-dark-blue;
+}
+.c-grayish-blue{
+    color :$dark-grayish-blue;
 }
 .card_radius{
     border-radius: .5em;

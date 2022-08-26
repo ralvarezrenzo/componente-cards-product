@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,100&family=Montserrat:wght@500;700&display=swap");
-.c-darkcyan {
-  color: hsl(158deg, 36%, 37%);
-}
-
-.c-dark-blue {
-  color: hsl(212deg, 21%, 14%);
-}
-
-.c-grayish-blue {
-  color: hsl(228deg, 12%, 48%);
-}
-
 .monserrat {
   font-family: "Montserrat", sans-serif;
 }
@@ -34,6 +22,18 @@ body {
 
 .bg-white {
   background-color: hsl(0deg, 0%, 100%);
+}
+
+.c-darkcyan {
+  color: hsl(158deg, 36%, 37%);
+}
+
+.c-dark-blue {
+  color: hsl(212deg, 21%, 14%);
+}
+
+.c-grayish-blue {
+  color: hsl(228deg, 12%, 48%);
 }
 
 .card_radius {
