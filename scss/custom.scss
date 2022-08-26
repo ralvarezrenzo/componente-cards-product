@@ -12,6 +12,15 @@ $white: hsl(0, 0%, 100%);
 
 $monserrat : 'Montserrat', sans-serif;
 $fraunces :'Fraunces', serif;
+.c-darkcyan{
+    color: $dark-cyan;
+}
+.c-dark-blue{
+    color: $very-dark-blue;
+}
+.c-grayish-blue{
+    color :$dark-grayish-blue;
+}
 .monserrat{
     font-family: $monserrat;
 }
@@ -36,13 +45,24 @@ body{
     border-radius: .5em;
 }
 .card_radius img{
-    border-radius: .5em 0 0 .5em;
+    border-radius: .5em .5em 0 0;
 }
-.card{
-
+.card_perfume{
+    letter-spacing: 3px;
 }
+.card-h{
+    min-height: 700px;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    background-color: $cream;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
 @media screen and (min-width: 768px){
     .card-h{
         min-height: 100vh;
+    }
+    .card_radius img{
+        border-radius: .5em 0 0 .5em;
     }
 }

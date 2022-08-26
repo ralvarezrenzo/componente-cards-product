@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,100&family=Montserrat:wght@500;700&display=swap");
+.c-darkcyan {
+  color: hsl(158deg, 36%, 37%);
+}
+
+.c-dark-blue {
+  color: hsl(212deg, 21%, 14%);
+}
+
+.c-grayish-blue {
+  color: hsl(228deg, 12%, 48%);
+}
+
 .monserrat {
   font-family: "Montserrat", sans-serif;
 }
@@ -29,11 +41,32 @@ body {
 }
 
 .card_radius img {
-  border-radius: 0.5em 0 0 0.5em;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.card_perfume {
+  letter-spacing: 3px;
+}
+
+.card-h {
+  min-height: 700px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }
 
 @media screen and (min-width: 768px) {
   .card-h {
     min-height: 100vh;
+  }
+  .card_radius img {
+    border-radius: 0.5em 0 0 0.5em;
   }
 }/*# sourceMappingURL=custom.css.map */
